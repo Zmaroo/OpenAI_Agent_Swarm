@@ -1,6 +1,15 @@
 from agents.tool_maker.assistant_manager import AssistantManager
 from agents.tool_maker.chat_manager import ChatManager
 
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+api_key = os.getenv('OPENAI_API_KEY')
+
+
+
+
 
 class Unit:
     """
