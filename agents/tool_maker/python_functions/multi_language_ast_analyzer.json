@@ -1,0 +1,1 @@
+{'name': 'multi_language_ast_analyzer', 'description': 'An enhanced version of the python_ast_analyzer that can analyze both Python and JavaScript code for AST and other metrics.', 'parameters': {'type': 'object', 'properties': {'language': {'type': 'string', 'enum': ['python', 'javascript']}, 'code': {'type': 'string'}}, 'required': ['language', 'code']}}
