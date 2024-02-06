@@ -1,0 +1,1 @@
+{'name': 'python_ast_analyzer', 'description': 'A tool that allows the model to use Abstract Syntax Trees (AST) to analyze Python code, extracting structured information about its syntax and components.', 'parameters': {'type': 'object', 'properties': {'code': {'type': 'string'}}, 'required': ['code']}}
