@@ -1,1 +1,0 @@
-{'name': 'run_powershell_command', 'description': 'Execute a Powershell command to list Python and JavaScript files in the specified directory for AST analysis.', 'parameters': {'type': 'object', 'properties': {'command': {'type': 'string'}}}}
